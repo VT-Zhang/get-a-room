@@ -1,6 +1,6 @@
 ## Online Hotel Booking System: get-a-room 
 
-![project_structure](https://user-images.githubusercontent.com/24898162/95540391-add84480-09be-11eb-9e77-f3d88e1ca266.jpg)
+![project_structure](https://user-images.githubusercontent.com/24898162/95663342-81cad980-0b0c-11eb-83dd-9f14ddeb98cf.png)
 
 You can use the [editor on GitHub](https://github.com/VT-Zhang/get-a-room/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
