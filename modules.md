@@ -3,4 +3,4 @@
 
 ## Modules
 
-![FlowChart](https://user-images.githubusercontent.com/24898162/95670556-e876e400-0b5a-11eb-9858-eee2b9a6caa0.jpg)
+![Happy_Path_Flow_Chart](https://user-images.githubusercontent.com/24898162/95685389-94edb000-0bc5-11eb-9427-1003c1e89001.jpg)
