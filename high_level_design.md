@@ -5,8 +5,6 @@
 
 ![project_structure](https://user-images.githubusercontent.com/24898162/95663810-2dc1f400-0b10-11eb-8895-3442f89bb910.png)
 
-Project 1 - High Level Design
-
 Before getting our heads down and moving forward with any architectural design, we have brainstormed and come up with a number of questions which are crucial to the design direction. Those questions can be classified into two major categories: system architecture and business logics.
 
 ### System Architechture Questions
@@ -37,9 +35,9 @@ The server side system is the crucial component that customers cannot directly i
 
 ### All-in-Cloud
 
-To address the questions regarding the cost, scalability, availability, and security during the planning phase of the project, the server side system does not reside in any in-house servers physically. The team decides that all-in-cloud is the best solution for addressing those topics.
+To address the questions regarding the affordability, scalability, availability, and security during the planning phase of the project, the server side system does not reside in any in-house servers physically. The team decides that all-in-cloud is the best solution for addressing those topics.
 
-- First, using cloud services like AWS, Microsoft Azure, and Google Cloud, can dramatically reduce the initial cost for purchasing, installing and managing the physical servers and other network equipment. Cloud services usually offer the pay-as-you-go payment plans, it is only a fraction of the cost to provision the same size of server instance and databases compared to purchasing those hardwares.
-- Second, in the event of business expansion, or increased traffic volume, scale up and scale out the cloud services computational instances and resources can be achieved in a matter of minutes, instead of days and months using traditional in-house servers.
-- Third, with properly configured elastic load balancer and failover plans in multiple availability zones for redundancy, the system can be highly available around the world.
-- Lastly, by putting databases and computational instances inside the Virtual Private Cloud with different subnets and virtual gateways, the system can also achieve a high level of data and access security.
+- Affordability: Using cloud services like AWS, Microsoft Azure, and Google Cloud, can dramatically reduce the initial cost for purchasing, installing and managing the physical servers and other network equipment. Cloud services usually offer the pay-as-you-go payment plans, it is only a fraction of the cost to provision the same size of server instance and databases compared to purchasing those hardwares.
+- Scalability: In the event of business expansion, or increased traffic volume, scale up and scale out the cloud services computational instances and resources can be achieved in a matter of minutes, instead of days and months using traditional in-house servers.
+- Availability: With properly configured elastic load balancer and failover plans in multiple availability zones for redundancy, the system can be highly available around the world.
+- Security: by putting databases and computational instances inside the Virtual Private Cloud with different subnets and virtual gateways, the system can also achieve a high level of data and access security.
