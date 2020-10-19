@@ -35,6 +35,8 @@ The “Orchestrator” is one of the most important modules of the system. It wo
 
 The Machine Learning Engine module of the server side system and the Recommendation module of the client side system together provides the unique feature and design of our hotel booking system and differentiates from the rest of the crowd. Essentially, the Machine Learning Engine is building on top of the well-trained neural network classifier models which takes the input variables like date, address, zip code, star of the hotel preference, customer price preference, previous search and confirmed trip results, and hotel discount and promotion information etc. It processes, optimizes and reorganizes the raw hotel list passed from the Hotel Search Engine. Then the sorted and reorganized list of hotels search result is sent back to the Recommendation module of the client side system for customer to view and choose from. The optimized search results put the recommended hotels on the first page or on top of the list, therefore making them more visible and easier been selected as the result. It benefits all the parties involved in this activity, customers enjoy the best hotel prices and intelligent search and booking experience, hotels with higher room inventory and provides great rates can promote a wider exposure, and eventually since our booking system  brings value to both our customers and vendors, it becomes a profitable and sustainable business.
 
+![Machine_Learning_Schema](https://user-images.githubusercontent.com/24898162/96504867-54281380-1223-11eb-910d-074890128183.png)
+
 ## Hotel Search Engine
 
 Content to be added
