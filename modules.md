@@ -4,7 +4,7 @@
 
 ![Happy_Path_Flow_Chart](https://user-images.githubusercontent.com/24898162/95685389-94edb000-0bc5-11eb-9427-1003c1e89001.jpg)
 
-## Happy Path Flow
+## The Happy Path Flow
 
 The “Happy Path” flow of our “get-a-room” online hotel booking system. "Happy Path" is a default scenario featuring no exceptions or error conditions occured during the complete end-to-end flow.
 
@@ -30,7 +30,13 @@ The “Orchestrator” is one of the most important modules of the system. It wo
 - Flexbility: Flexbility is the effort required to modify an existing system. In this case, adding an additional funtional module to the server side system is extremely easy and effortless. Because all the micro services are connected the Orchestrator hub, and the interface is universally formated - HTTP protocal and JSON format payload. As long as the client side module is designed per the API contract specification.
 - Interoperability: Interoperability is the effort required to couple one system to another. At the beginning, the system maybe only support one client side system, say website, to consume the mirco services and data provided by the server side modules through the Orchestrator. Again, no matter what form of the client side system appears, web, Android, iOS or even voice assistant, as long as the client side systems are designed per API contract, they are able to consume the data from the server side system. Adding another client side system requires very low modification of the server side system.
 
-## Machine Learning Engine
+## Hotel Search Engine
+
+The Hotel Search Engine module of the server side system is one of the core functions of application. It is responsible to collect the research queries sent from the Hotel Seach module of the client side system. Upon received the search queries, it checks the similar cached entries from the database. If the similar queries do not exist, it sends out HTTP requests to an array of exterior hotels and other trip managing company APIs to further query the desired results. Finally when all the responses come back from those third party APIs, the Search Engine conglomerates and organizes the results as a list and passes down to the Machine Learning Engine to further process and optimize.
+
+The caching mechanism of the Hotel Search Engine is a special module to increase user searching experiences. It takes time for all the requests and reponses going to and coming back from those exterior hotel and platform APIs, since they are not under control of our own hands. The Cache module saves the most searched criteria for a given period. When the new search queries come from the client side system, the Search Engine looks into the Cache module first. If it is a hit, the Search Engine skips the exterior search and forwards the results immediately to the Machine Learning Engine. It it is a miss, the Search Engine then goes out to the exterior APIs for further search.
+
+## Machine Learning Engine Module
 
 The Machine Learning Engine module of the server side system and the Recommendation module of the client side system together provides the unique feature and design of our hotel booking system and differentiates from the rest of the crowd. Essentially, the Machine Learning Engine is building on top of the well-trained neural network classifier models which takes the input variables like date, address, zip code, star of the hotel preference, customer price preference, previous search and confirmed trip results, and hotel discount and promotion information etc. It processes, optimizes and reorganizes the raw hotel list passed from the Hotel Search Engine. Then the sorted and reorganized list of hotels search result is sent back to the Recommendation module of the client side system for customer to view and choose from. The optimized search results put the recommended hotels on the first page or on top of the list, therefore making them more visible and easier been selected as the result. It benefits all the parties involved in this activity, customers enjoy the best hotel prices and intelligent search and booking experience, hotels with higher room inventory and provides great rates can promote a wider exposure, and eventually since our booking system  brings value to both our customers and vendors, it becomes a profitable and sustainable business.
 
@@ -39,10 +45,6 @@ The Machine Learning Engine module of the server side system and the Recommendat
 
 - ### Machine Learning Engine Class UML
 <img src="https://user-images.githubusercontent.com/24898162/96535922-ea2e5f00-1260-11eb-9283-8767597fed80.png" width="700">
-
-## Hotel Search Engine
-
-Content to be added
 
 ## Payment Process Service
 
