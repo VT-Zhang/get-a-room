@@ -47,10 +47,14 @@ The Machine Learning Engine module of the server side system and the Recommendat
 - ### Machine Learning Engine Class UML and Flow
 <img src="https://user-images.githubusercontent.com/24898162/96629821-248c1080-12e2-11eb-9ffe-dd4230066085.png" width="800">
 
-## Payment Process Service
+## Payment Process Service Module
+
+Payment Process Service module of the server side system stores, processes, relays and confirms payment information remitted from the client side Payment module and forward the payment to the external payment processing entities' APIs, like major banks or other financial institutions. Once the customer choose a desired hotel to book, the Payment module of the client system takes the customer's payment information, and passes to this Payment Process Service module. It first validates and verifies the paymant information, and then it encrypts the data before the payment remission is sent out. After the payment is accepted by the external vendors, it relays the payment success confirmation message to the Reservation Processing Service.
+
+- ### Payment Process Service Class UML and Flow
+
+## Reservation Process Service Module
 
 Content to be added
 
-## Reservation Process Service
-
-Content to be added
+- ### Reservation Process Service Class UML and Flow
