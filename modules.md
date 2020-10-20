@@ -1,10 +1,8 @@
 [Project Summary](index.md) | [Use Cases](use_cases.md) | [Requirements](requirements.md) | [High-Level Design](high_level_design.md) | [Modules](modules.md) | [Design Rationale](design_rationale.md) | [Conclusion](conclusion.md)
 
-## Modules
+## The Happy Path Flow
 
 ![Happy_Path_Flow_Chart](https://user-images.githubusercontent.com/24898162/95685389-94edb000-0bc5-11eb-9427-1003c1e89001.jpg)
-
-## The Happy Path Flow
 
 The “Happy Path” flow of our “get-a-room” online hotel booking system. "Happy Path" is a default scenario featuring no exceptions or error conditions occured during the complete end-to-end flow.
 
