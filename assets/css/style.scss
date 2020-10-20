@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+$large-breakpoint: 90em !default;
+
 .main-content {
     @include large {
         max-width: 90rem;
