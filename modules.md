@@ -53,7 +53,7 @@ Payment Process Service module of the server side system stores, processes, rela
 
 - ### Payment Process Service Class UML and Flow
 <img src="https://user-images.githubusercontent.com/24898162/96635645-2063f100-12ea-11eb-8f09-7516dc0d72aa.png
-" width="600">
+" width="700">
 
 ## Reservation Process Service Module
 
