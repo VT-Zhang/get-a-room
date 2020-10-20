@@ -36,7 +36,7 @@ The Hotel Search Engine module of the server side system is one of the core func
 
 The caching mechanism of the Hotel Search Engine is a special module to increase user searching experiences. It takes time for all the requests and reponses going to and coming back from those external hotel and platform APIs, since they are not under control of our own hands. The Cache module saves the most searched criteria for a given period. When the new search queries come from the client side system, the Search Engine looks into the Cache module first. If it is a hit, the Search Engine skips the external search and forwards the results immediately to the Machine Learning Engine. If it is a miss, the Search Engine then goes out to the external APIs for further search. This caching mechanism greatly boosts the search efficiency and reduces the average wait time for external APIs queries.
 
-- ### Hotel Seach Engine Class UML
+- ### Hotel Seach Engine Class UML and Flow
 <img src="https://user-images.githubusercontent.com/24898162/96626377-6d8d9600-12dd-11eb-9ff7-49d86cc2ae9e.png" width="700">
 
 ## Machine Learning Engine Module
@@ -46,8 +46,8 @@ The Machine Learning Engine module of the server side system and the Recommendat
 - ### Neural Network Schema Model
 ![Machine_Learning_Schema](https://user-images.githubusercontent.com/24898162/96504867-54281380-1223-11eb-910d-074890128183.png)
 
-- ### Machine Learning Engine Class UML
-<img src="https://user-images.githubusercontent.com/24898162/96535922-ea2e5f00-1260-11eb-9283-8767597fed80.png" width="700">
+- ### Machine Learning Engine Class UML and Flow
+<img src="https://user-images.githubusercontent.com/24898162/96627244-93676a80-12de-11eb-83e7-3059110390d8.png" width="700">
 
 ## Payment Process Service
 
