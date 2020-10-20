@@ -38,7 +38,7 @@ The Machine Learning Engine module of the server side system and the Recommendat
 ![Machine_Learning_Schema](https://user-images.githubusercontent.com/24898162/96504867-54281380-1223-11eb-910d-074890128183.png)
 
 - ### Machine Learning Engine Class UML
-![Machine_Learning_Engine_Class_UML](https://user-images.githubusercontent.com/24898162/96535922-ea2e5f00-1260-11eb-9283-8767597fed80.png = 835x1085)
+![Machine_Learning_Engine_Class_UML](https://user-images.githubusercontent.com/24898162/96535922-ea2e5f00-1260-11eb-9283-8767597fed80.png =835x1085)
 
 ## Hotel Search Engine
 
