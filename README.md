@@ -14,3 +14,7 @@ XMind <https://www.xmind.net/>
 ## FlowChart Tool for Module Design
 
 Draw.io <https://www.draw.io>
+
+## Neural Network Schema Modeling Tool
+
+NN-SVG <http://alexlenail.me/NN-SVG/index.html>
