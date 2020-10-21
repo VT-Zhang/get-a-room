@@ -1,5 +1,7 @@
 [Project Summary](index.md) | [Use Cases](use_cases.md) | [Requirements](requirements.md) | [High-Level Design](high_level_design.md) | [Modules](modules.md) | [Design Rationale](design_rationale.md) | [Conclusion](conclusion.md)
 
+In this section, we will discuss each of the core module's fuction, flow as well as illustrate the UML diagram for main variables and methods inside each class. As mentioned before, with the decoupled design, the client side system does not contain any core business logics. It only interacts with the user and visually presents the data passed from the server side system. Therefore, the main focus of this Module section is on the core modules of the server side system.
+
 ## 1. The Happy Path Flow
 
 ![Happy_Path_Flow_Chart](https://user-images.githubusercontent.com/24898162/95685389-94edb000-0bc5-11eb-9427-1003c1e89001.jpg)
@@ -52,11 +54,11 @@ The Machine Learning Engine module of the server side system and the Recommendat
 Payment Process Service module of the server side system stores, processes, relays and confirms payment information remitted from the client side Payment module and forward the payment to the external payment processing entities' APIs, like major banks or other financial institutions. Once the customer chooses a desired hotel to book, the Payment module of the client system takes the customer's payment information, and passes to this Payment Process Service module. It first validates and verifies the paymant information, and then it encrypts the data before the payment remission is sent out. After the payment is accepted by the external vendors, it relays the payment success confirmation message to the Reservation Processing Service. Otherwise it returns the error message back to the client side Payment module to inform the customer the payment processing is not successful.
 
 - ### Payment Process Service Class UML and Flow
-<img src="https://user-images.githubusercontent.com/24898162/96635645-2063f100-12ea-11eb-8f09-7516dc0d72aa.png
-" width="700">
+<img src="https://user-images.githubusercontent.com/24898162/96635645-2063f100-12ea-11eb-8f09-7516dc0d72aa.png" width="700">
 
 ## 6. Reservation Process Service Module
 
 Revervation Process Service module serves as the final section of the booking flow. When the payment confirmation passed from the Paymen Process Service module, it carries the confirmed payment data payload along with other necessary booking information and sends the HTTP request to the selected hotel APIs for the final reservation confirmation. Once the hotel API returns the acknowledgement of the reservation, this module saves the reservation data to the database and forwards the response back to the client side system to let the custom know reservation is successful.
 
 - ### Reservation Process Service Class UML and Flow
+<img src="https://user-images.githubusercontent.com/24898162/96667915-fd583200-1327-11eb-9f4c-1abbee082ea8.png" width="700">
