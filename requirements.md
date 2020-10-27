@@ -6,7 +6,7 @@
 
 | **#####** | **Description** |
 |---|---|
-| **FR-1** | Users have the ability to create an online account. Email address, password, and name required to create an account. |
+| **FR-1** | Users have the ability to create an online account. Email address, password, and name are required to create an account. |
 | **FR-2** | Authentication requires email address and password. |
 | **FR-3** | User is able to complete booking request as a guest or with a saved account. |
 | **FR-4** | Ability to view and manage previous and future bookings and itineraries will be available to users with a saved account. |
@@ -23,9 +23,9 @@
 
 ### Non-Functional Requirements
 
-| **#####** | **Description** |
+| **####** | **Description** |
 |---|---|
-| **NFR-1** | get-a-room will support a website and mobile app for Android and iOS devices. |
+| **NFR-1** | get-a-room will support a website and mobile apps for Android and iOS devices. |
 | **NFR-2** | Search engine and booking processing service must interface with multiple hotel APIs to retrieve search results. |
 | **NFR-3** | Payment processing service must interface with multiple financial institution APIs to process payments. |
 | **NFR-4** | Cloud database solution will be utilized. |
