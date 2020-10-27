@@ -60,3 +60,24 @@ The **Payment Process Service** module of the server side system stores, process
 The **Revervation Process Service** module serves as the final section of the booking flow. When the payment confirmation passed from the Paymen Process Service module, it carries the confirmed payment data payload along with other necessary booking information and sends the HTTP request to the selected hotel APIs for the final reservation confirmation. Once the hotel API returns the acknowledgement of the reservation, this module saves the reservation data to the database and forwards the response back to the client side system to let the custom know reservation is successful.
 
 <img src="https://user-images.githubusercontent.com/24898162/96667915-fd583200-1327-11eb-9f4c-1abbee082ea8.png" width="700">
+
+## 7. Tracebility Matrix
+
+### Functional Requirements
+
+| #####     | Authentication | Itinerary Management | Search Hotels | Hotel Search Engine | Machine Learning Engine | Recommendation | Payment | Payment Processing Service | Reservation Processing Service | Database |
+|-----------|:--------------:|:--------------------:|:-------------:|:-------------------:|:-----------------------:|:--------------:|:-------:|:--------------------------:|:------------------------------:|:--------:|
+| **FR-1**  |        X       |                      |               |                     |                         |                |         |                            |                                |     X    |
+| **FR-2**  |        X       |                      |               |                     |                         |                |         |                            |                                |     X    |
+| **FR-3**  |                |           X          |       X       |          X          |                         |        X       |         |                            |                                |     X    |
+| **FR-4**  |                |           X          |               |                     |                         |                |         |                            |                                |     X    |
+| **FR-5**  |                |           X          |               |                     |                         |                |         |                            |                                |     X    |
+| **FR-6**  |                |           X          |               |                     |                         |                |         |                            |                                |     X    |
+| **FR-7**  |                |                      |               |                     |                         |                |    X    |              X             |                                |          |
+| **FR-8**  |                |           X          |               |                     |                         |                |         |                            |                X               |          |
+| **FR-9**  |                |           X          |               |                     |                         |                |         |                            |                X               |          |
+| **FR-10** |                |                      |       X       |          X          |                         |                |         |                            |                                |          |
+| **FR-11** |                |                      |       X       |          X          |                         |                |         |                            |                                |          |
+| **FR-12** |                |                      |       X       |          X          |            X            |        X       |         |                            |                                |          |
+| **FR-13** |                |                      |               |                     |            X            |        X       |         |                            |                                |          |
+| **FR-14** |                |                      |       X       |                     |                         |        X       |         |                            |                                |          |
