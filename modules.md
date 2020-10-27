@@ -61,7 +61,7 @@ The **Revervation Process Service** module serves as the final section of the bo
 
 <img src="https://user-images.githubusercontent.com/24898162/96667915-fd583200-1327-11eb-9f4c-1abbee082ea8.png" width="700">
 
-## 7. Tracebility Matrix
+## 7. Traceability Matrix
 
 ### Functional Requirements
 
