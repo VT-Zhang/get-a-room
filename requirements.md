@@ -4,7 +4,7 @@
 
 ### Functional Requirements
 
-| **####** | **Description** |
+| **#####** | **Description** |
 |---|---|
 | **FR-1** | Users have the ability to create an online account. Email address, password, and name required to create an account. |
 | **FR-2** | Authentication requires email address and password. |
@@ -23,7 +23,7 @@
 
 ### Non-Functional Requirements
 
-| **####** | **Description** |
+| **#####** | **Description** |
 |---|---|
 | **NFR-1** | get-a-room will support a website and mobile app for Android and iOS devices. |
 | **NFR-2** | Search engine and booking processing service must interface with multiple hotel APIs to retrieve search results. |
