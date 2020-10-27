@@ -81,3 +81,15 @@ The **Revervation Process Service** module serves as the final section of the bo
 | **FR-12** |                |                      |       X       |          X          |            X            |        X       |         |                            |                                |          |
 | **FR-13** |                |                      |               |                     |            X            |        X       |         |                            |                                |          |
 | **FR-14** |                |                      |       X       |                     |                         |        X       |         |                            |                                |          |
+
+### Non-Functional Requirements
+
+| ######    | Authentication | Itinerary Management | Search Hotels | Hotel Search Engine | Machine Learning Engine | Recommendation | Payment | Payment Processing Service | Reservation Processing Service | Database |
+|-----------|:--------------:|:--------------------:|:-------------:|:-------------------:|:-----------------------:|:--------------:|:-------:|:--------------------------:|:------------------------------:|:--------:|
+| **NFR-1** |        X       |           X          |       X       |          X          |            X            |        X       |    X    |              X             |                X               |     X    |
+| **NFR-2** |                |                      |               |          X          |                         |                |         |                            |                X               |          |
+| **NFR-3** |                |                      |               |                     |                         |                |         |              X             |                                |          |
+| **NFR-4** |                |                      |               |                     |                         |                |         |                            |                                |     X    |
+| **NFR-5** |                |                      |               |                     |                         |                |         |                            |                                |     X    |
+| **NFR-6** |                |                      |       X       |          X          |                         |                |    X    |              X             |                X               |     X    |
+| **NFR-7** |        X       |           X          |       X       |          X          |            X            |        X       |    X    |              X             |                X               |     X    |
