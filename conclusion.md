@@ -7,13 +7,10 @@ There are a number of existing hotel booking websites which utilize a client-ser
 ## Credits to the graphic tools used in this project
 
 ### Mind Mapping Tool for High-Level Design
-
-XMind <https://www.xmind.net/>
+XMind <https://www.xmind.net>
 
 ### FlowChart Tool for Module Design
-
 Draw.io <https://www.draw.io>
 
 ### Schema Modeling Tool for Neural Network Model
-
 NN-SVG <http://alexlenail.me/NN-SVG/index.html>
